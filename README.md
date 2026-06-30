@@ -27,18 +27,21 @@ source .venv/bin/activate
 # 3) instalar dependências
 pip install -r requirements.txt
 
-# 4) criar arquivo de ambiente
+# 4) entrar na pasta
+cd raizes-backend
+
+# 5) criar arquivo de ambiente
 copy .env.example .env
 # no Linux/Mac: cp .env.example .env
 
-# 5) criar banco e tabelas
+# 6) criar banco e tabelas
 python manage.py makemigrations
 python manage.py migrate
 
-# 6) popular dados de teste
+# 7) popular dados de teste
 python manage.py seed
 
-# 7) iniciar API
+# 8) iniciar API
 python manage.py runserver
 ```
 
