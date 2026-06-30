@@ -152,23 +152,23 @@ Ordem sugerida:
 ## 10. Estrutura do projeto
 
 ```text
-
-raizes-backend/
-├── apps/
-│   ├── auditoria/
-│   ├── core/
-│   ├── estoque/
-│   ├── fidelidade/
-│   ├── pagamentos/
-│   ├── pedidos/
-│   ├── produtos/
-│   ├── unidades/
-│   └── usuarios/
-├── config/
-├── docs/
-├── manage.py
-├── requirements.txt
-└── .env.example
+Raizes_do_Nordeste/ 
+  raizes-backend/
+  ├── apps/
+  │    ├── auditoria/
+  │   ├── core/
+  │   ├── estoque/
+  │   ├── fidelidade/
+  │   ├── pagamentos/
+  │   ├── pedidos/
+  │   ├── produtos/
+  │   ├── unidades/
+  │   └── usuarios/
+  ├── config/
+  ├── docs/
+  ├── manage.py
+  ├── requirements.txt
+  └── .env.example
 ```
 
 
